@@ -104,4 +104,4 @@ class TwitterClient(Resource):
 api.add_resource(TwitterClient, '/<string:query>')
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, port=33507)
